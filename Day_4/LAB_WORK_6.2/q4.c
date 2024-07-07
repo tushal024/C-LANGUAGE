@@ -15,6 +15,9 @@ int main(){
 
        first=sec;
        sec=temp; 
+
+
+       
     }
     
 }

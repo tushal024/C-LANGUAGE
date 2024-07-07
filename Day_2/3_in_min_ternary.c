@@ -13,6 +13,5 @@ int main(){
     scanf("%i",&c);
 
 
-    (a < b &&  a < c)? printf("a is min"): (b < a && b < c)? 
-    printf("b is min"): printf("c is min");  
+    (a < b &&  a < c)? printf("a is min"): (b < a && b < c)? printf("b is min"): printf("c is min");  
 }

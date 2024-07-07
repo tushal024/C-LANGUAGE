@@ -2,7 +2,7 @@
 
  int main()
 {
-    printf("Name      : Chintan Rathod\n");
-    printf("Age       : 22\n");
+    printf("Name      : TUSHAL SHEKH\n");
+    printf("Age       : 20\n");
     printf("Institute : Red & White Multimedia Edu.");
 }
