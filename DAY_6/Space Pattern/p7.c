@@ -1,28 +1,25 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
-
-    int i, j;
-
    
-    for (  i = 0; i < 5; i++) {
-    
-        for (j = 1; j <= 5 - i; j++) {
-            printf("%d", j);
-        }
-        
+   for(int row=5; row>=1; row--){
      
-        for (j = 0; j < 2 * i; j++) {
-            printf(" ");
-        }
-        
-     
-        for (j = 5 - i; j >= 1; j--) {
-            printf("%d", j);
-        }
-        
-        printf("\n");
-    }
-
-    return 0;
+       for(int col=1; col<=row; col++){
+           
+           printf("%d",col);
+           
+       }
+       
+         for(int space= (5-row)*2; space>=1; space--){
+           printf(" ");
+       }
+       
+       
+       for(int coll=row;coll>=1;coll--){
+           printf("%d",coll);
+       }
+       
+       printf("\n");
+   }
 }
